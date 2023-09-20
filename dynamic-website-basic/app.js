@@ -43,6 +43,6 @@ app.post("/share-opinion", async function (req, res) {
   res.redirect(`/topics/${topicId}`);
 });
 
-app.listen(3000, "0.0.0.0", () => {
-  console.log("Server is running on IP: 0.0.0.0, Port: 3000");
+app.listen(80, () => {
+  console.log(`server running at port ${80}`);
 });
